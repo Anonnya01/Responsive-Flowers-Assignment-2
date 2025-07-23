@@ -17,7 +17,7 @@
   /* header */
   .header {
     flex-direction: column-reverse;
-    
+
     text-align: center;
     margin: 0 10px 0 10px;
   }
@@ -41,7 +41,7 @@
     font-weight: 400;
   }
   /* cart */
-  .products{
+  .products {
     margin: 10px 10px;
   }
   .products h1 {
@@ -53,5 +53,28 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+  }
+
+  /* plant */
+  #badge {
+    display: none;
+  }
+  .plant {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 20px;
+  }
+  .plant-container {
+    text-align: center;
+  }
+  .plant-container h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .plant-container ul {
+    font-size: 14px;
+    font-weight: 400;
   }
 }
