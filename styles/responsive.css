@@ -17,9 +17,9 @@
   /* header */
   .header {
     flex-direction: column-reverse;
-    justify-content: center;
-    text-align: start;
-    margin: 0 15px 0 15px;
+    
+    text-align: center;
+    margin: 0 10px 0 10px;
   }
   .header-content h1 {
     margin-top: 20px;
@@ -33,5 +33,25 @@
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 13px;
+  }
+
+  /* product */
+  .products p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  /* cart */
+  .products{
+    margin: 10px 10px;
+  }
+  .products h1 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .cart-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
 }
