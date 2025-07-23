@@ -1,0 +1,37 @@
+@media screen and (max-width: 576px) {
+  /* Nav bar */
+  .nav-middle {
+    display: none;
+  }
+  .navbar {
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px 15px;
+    margin: 50px 15px 20px 15px;
+    gap: 120px;
+  }
+  .nav-img img {
+    width: 63px;
+    height: 38px;
+  }
+  /* header */
+  .header {
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: start;
+    margin: 0 15px 0 15px;
+  }
+  .header-content h1 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    gap: 5px;
+  }
+  .header-content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 13px;
+  }
+}
