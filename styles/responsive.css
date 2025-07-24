@@ -164,4 +164,10 @@
     flex-direction: column;
     margin-left: 20px;
   }
+  .footer-left p {
+    margin-bottom: 20px;
+  }
+  .footer-logo {
+    margin-top: 10px;
+  }
 }
