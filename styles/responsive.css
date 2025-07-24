@@ -159,4 +159,9 @@
     font-weight: 600;
     font-family: inter;
   }
+  /* footer */
+  .footer {
+    flex-direction: column;
+    margin-left: 20px;
+  }
 }
