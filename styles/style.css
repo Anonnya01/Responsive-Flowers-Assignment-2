@@ -44,9 +44,7 @@ button:hover {
   background-color: #cf460c;
   color: #252525;
 }
-a:hover {
-  color: #252525;
-}
+
 
 /* nav bar */
 .navbar {
@@ -134,7 +132,7 @@ a:hover {
   font-weight: 700;
   margin-bottom: 40px;
 }
-/* plant */
+/* plant & badge*/
 .plant {
   justify-content: center;
   align-items: start;
@@ -166,7 +164,7 @@ a:hover {
   width: 286px;
   height: 286px;
 }
-/* deals */
+/* deals title */
 .deals {
   text-align: center;
   margin-bottom: 120px;
