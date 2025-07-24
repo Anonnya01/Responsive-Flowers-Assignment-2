@@ -156,7 +156,8 @@ button:hover {
 }
 #badge img {
   position: absolute;
-  transform: translate(230%, -40%);
+  transform: translate(122%, -45%);
+  
   width: 286px;
   height: 286px;
 }
