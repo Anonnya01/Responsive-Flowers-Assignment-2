@@ -177,6 +177,10 @@ button:hover {
 /* latest deal */
 .Latest-box {
   justify-content: center;
+  margin-bottom: 120px;
+}
+.box-left {
+  margin-bottom: 0;
 }
 .box-1 {
   margin: 20px;
@@ -256,4 +260,37 @@ button:hover {
   font-weight: 700;
   margin-bottom: 19px;
   padding: 10px;
+}
+
+/* email */
+.colorful {
+  background-image: url(../assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  color: white;
+  padding: 180px 0;
+}
+.colorful h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.email {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.email input {
+  padding: 20px 40px;
+  width: 644px;
+  height: 50px;
+}
+.btn-2 {
+  width: 186px;
+  height: 50px;
+  background-color: #e95a08;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-family: inter;
 }

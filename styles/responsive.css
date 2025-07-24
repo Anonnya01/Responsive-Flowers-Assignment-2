@@ -77,4 +77,86 @@
     font-size: 14px;
     font-weight: 400;
   }
+
+  /* deals */
+
+  .deals {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .deals h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  .deals p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .Latest-box {
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-bottom: 30px;
+  }
+  .box-3 {
+    margin: 20px;
+    padding: 64px 47px;
+    width: 366.22px;
+    height: 206px;
+    margin-top: 5px;
+    border-radius: 8px;
+    background-image: url(../assets/deal-zabo.png);
+    filter: grayscale(20%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+  }
+  .box-3 a {
+    color: white;
+    font-weight: 600;
+  }
+  .box-3 h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 19px;
+    padding: 10px;
+  }
+
+  /* email */
+  .colorful {
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    padding: 110px 30px 50px 30px;
+  }
+  .colorful h1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .email {
+    display: flex;
+    justify-content: center;
+    margin-top: none;
+    padding: 10px 10px;
+  }
+  .email input {
+    padding: 10px 10px;
+    width: 218px;
+    height: 50px;
+  }
+  .btn-2 {
+    width: 150px;
+    height: 50px;
+    background-color: #e95a08;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-family: inter;
+  }
 }
