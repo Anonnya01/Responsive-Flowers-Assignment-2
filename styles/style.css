@@ -44,6 +44,9 @@ button:hover {
   background-color: #cf460c;
   color: #252525;
 }
+a:hover {
+  color: #252525;
+}
 
 /* nav bar */
 .navbar {
@@ -62,7 +65,7 @@ button:hover {
 /* header */
 .header {
   justify-content: center;
-  align-items: end;
+  align-items: center;
   margin-bottom: 120px;
 }
 .header-content h1 {
@@ -70,10 +73,12 @@ button:hover {
   font-weight: 700;
   line-height: 89px;
   gap: 50px;
+  padding: 0 50px 0 0;
 }
 .header-content p {
   font-size: 22px;
   font-weight: 400;
+  padding: 0 50px 0 0;
   color: rgba(0, 0, 0, 0.5);
   margin-top: 13px;
 }
@@ -157,7 +162,7 @@ button:hover {
 #badge img {
   position: absolute;
   transform: translate(122%, -45%);
-  
+
   width: 286px;
   height: 286px;
 }
@@ -190,9 +195,11 @@ button:hover {
   padding: 64px 47px;
   width: 366.22px;
   height: 206px;
-  border-radius: 8px;
-  background-image: url(../assets/deal-bloom.png);
+  border-radius: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45)),
+    url(../assets/deal-bloom.png);
   filter: grayscale(20%);
+
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -216,8 +223,9 @@ button:hover {
   padding: 64px 47px;
   width: 366.22px;
   height: 206px;
-  border-radius: 8px;
-  background-image: url(../assets/deal-ana.png);
+  border-radius: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45)),
+    url(../assets/deal-ana.png);
   filter: grayscale(20%);
   background-repeat: no-repeat;
   background-size: cover;
@@ -243,9 +251,10 @@ button:hover {
   padding: 10px;
   width: 753px;
   height: 426.13px;
-  border-radius: 8px;
-  background-image: url(../assets/deal-zabo.png);
-  filter: grayscale(30%);
+  border-radius: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45)),
+    url(../assets/deal-zabo.png);
+
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -257,9 +266,21 @@ button:hover {
 .box-3 a {
   color: white;
   font-weight: 600;
+  font-size: 22px;
 }
+
+.box-1 a:hover {
+  color: #e95a08;
+}
+.box-2 a:hover {
+  color: #e95a08;
+}
+.box-3 a:hover {
+  color: #e95a08;
+}
+
 .box-3 h1 {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 700;
   margin-bottom: 19px;
   padding: 10px;
