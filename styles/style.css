@@ -161,7 +161,7 @@ button:hover {
 #badge img {
   position: absolute;
   transform: translate(122%, -45%);
-  filter: drop-shadow(10px 8px 4px #3a393944);
+  filter: drop-shadow(10px 6px 4px #00000044);
   width: 286px;
   height: 286px;
 }
@@ -337,4 +337,7 @@ button:hover {
 
 .footer-logo img {
   margin-right: 25px;
+}
+#tweet {
+  margin-bottom: 10px;
 }
