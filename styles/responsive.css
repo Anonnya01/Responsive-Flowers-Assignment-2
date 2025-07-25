@@ -76,10 +76,12 @@
   .plant-container h3 {
     font-size: 24px;
     font-weight: 700;
+    margin-bottom: 10px;
   }
   .plant-container ul {
     font-size: 14px;
     font-weight: 400;
+    text-align: left;
   }
 
   /* deals */
